@@ -17,12 +17,12 @@ select opt in "${options[@]}"; do
 		fi
 		echo -e "${GRN}Create a new user"
         echo -e "${BLU}Press Enter to move to the next step, if not filled in, it will automatically receive the default value"
-  		echo -e "Enter username (Default: MAC)"
+  		echo -e "Enter username (Default: Macbook)"
 		read realName
-  		realName="${realName:=MAC}"
-    	echo -e "${BLUE}Get username ${RED}WRITE INSTANT WITHOUT ACCOUNTS ${GRN} (Default: MAC)"
+  		realName="${realName:=Macbook}"
+    	echo -e "${BLUE}Get username ${RED}WRITE INSTANT WITHOUT ACCOUNTS ${GRN} (Default: Macbook)"
       	read username
-		username="${username:=MAC}"
+		username="${username:=Macbook}"
   		echo -e "${BLUE}Enter password (default: 1234)"
     	read passw
       	passw="${passw:=1234}"
