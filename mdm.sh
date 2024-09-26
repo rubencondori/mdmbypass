@@ -1,4 +1,3 @@
-mdm.sh
 #!/bin/bash
 RED='\033[0;31m'
 GRN='\033[0;32m'
