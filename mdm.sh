@@ -5,7 +5,7 @@ BLU='\033[0;34m'
 NC='\033[0m'
 echo "CREATE BY RUBEN"
 echo -e "Auto Tools for MacOS"
-echo ""
+echo "CONTACT ME +51 903 457 781"
 PS3='Please enter your choice: '
 options=("Bypass on Recovery" "Disable Notification (SIP)" "Disable Notification (Recovery)" "Check MDM Enrollment" "Thoát")
 select opt in "${options[@]}"; do
